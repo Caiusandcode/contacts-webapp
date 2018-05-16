@@ -9,8 +9,8 @@ export class ContactService {
 
   constructor() {
     this.contacts = [];
-    this.contacts.push(new Contact('First', 'Contact'));
-    this.contacts.push(new Contact('Second', 'Contact'));
+    this.contacts.push(new Contact(1,'First', 'Contact'));
+    this.contacts.push(new Contact(2, 'Second', 'Contact'));
 
   }
 
